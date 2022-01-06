@@ -1,4 +1,9 @@
 body{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Rubik', sans-serif;
+
     margin: 0%;
     padding: 0%;
     background-image: url(./images/top-banner.png);
@@ -49,7 +54,7 @@ span{
 .child2 img{
     width: 100%;
 }
-a{
+.anchor{
     padding: 10px 40px ;
     background-image: linear-gradient(to right, red , blue);
     border: none;
@@ -125,4 +130,16 @@ footer p{
 footer h2{
     font-size: 56px;
     font-style: italic;
+}
+.section4{
+    display: flex;
+    margin:0 auto;
+    justify-content: space-around;
+    background-color: darkgrey;
+}
+button{
+    
+    font-size: 16px;
+    border: none;
+    size: 20px;
 }
