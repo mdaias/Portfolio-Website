@@ -1,0 +1,125 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.heading{
+    font-size:30px ;
+}
+span{
+    color: fuchsia;
+}
+.section1{
+    width: 70%;
+    margin:0 auto;
+    justify-content: space-around;
+    
+}
+.parents{
+ display: flex;
+ margin-top: 100px;
+ margin-bottom: 100px;
+}
+.child1{
+    width: 500px;
+    border: 1px solid gray;
+    border: radius 30px;
+    padding:20px ;
+    border-radius: 30px;
+    background-color: rgba(233, 150, 122, 0.356);
+    box-shadow: 20px 40px 20px gray;
+    
+}
+.child1 p{
+    font-size: 24px;
+}
+.child2{
+    width: 400px;
+    border: 1px solid gray;
+    border: radius 30px; ;
+    margin-left: 100px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgba(233, 150, 122, 0.322);
+    box-shadow: 20px 40px 20px gray;
+}
+.child2 img{
+    width: 100%;
+}
+a{
+    padding: 10px 40px ;
+    background-image: linear-gradient(to right, red , blue);
+    border: none;
+    color: honeydew;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+.section2{
+    margin-top:150px ;
+    margin-bottom: 100px;
+    
+}
+.parents2{
+    display: flex;
+    width: 90%;
+    margin:0 auto;
+    justify-content: space-around;
+}
+.mission{
+    width: 300px;
+    border: 1px solid gray;
+    border: radius 30px;
+    padding:20px ;
+    border-radius: 30px;
+    background-color: rgba(233, 150, 122, 0.356);
+    box-shadow: 20px 40px 20px gray;
+    
+}
+.vission{
+    width: 300px;
+    border: 1px solid gray;
+    border: radius 30px;
+    padding:20px ;
+    border-radius: 30px;
+    background-color: rgba(233, 150, 122, 0.356);
+    box-shadow: 20px 40px 20px gray;
+}
+.goal{
+    width: 300px;
+    border: 1px solid gray;
+    border: radius 30px;
+    padding:20px ;
+    border-radius: 30px;
+    background-color: rgba(233, 150, 122, 0.356);
+    box-shadow: 20px 40px 20px gray;
+}
+.illustrator{
+    width: 40%;
+}
+#mission-header{
+    text-align: center;
+    font-size: 60px;
+}
+.section3{
+    width: 70%;
+    margin:0 auto;
+    justify-content: space-around;
+    
+}
+footer{
+    align-content: center;
+    background-color: black;
+    padding: 30px;
+    color: white;
+    text-align: center;;
+}
+footer p{
+    font-size: 26px;
+}
+footer h2{
+    font-size: 56px;
+    font-style: italic;
+}
